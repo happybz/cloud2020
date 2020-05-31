@@ -1,0 +1,10 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      # 这里是虚拟机的ip
+      connect-string: 192.168.142.129:2181
