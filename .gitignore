@@ -1,5 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-### Example user template template
 ### Example user template
 
 # IntelliJ project files
@@ -41,4 +40,3 @@ hs_err_pid*
 .idea/misc.xml
 .idea/vcs.xml
 cloud2020.iml
-pom.xml
