@@ -16,6 +16,11 @@ mybatis:
   type-aliases-package: com.happybz.springcloud.entities
 
 eureka:
+  instance:
+    # 主机名称
+    instance-id: payment8001
+    # 访问信息有ip信息提示
+    prefer-ip-address: true
   client:
     # 表示是否将自己注册进EurekaServer 默认是 true
     register-with-eureka: true
